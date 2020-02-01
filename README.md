@@ -1,4 +1,4 @@
-# fastqsplit
+# fastqsplit modded by tontsa
 
 Splits fastq files by lane.
 
@@ -12,6 +12,7 @@ fastqsplit fastq_file(s)
 
 * fastq files must be gzipped
 * Does approximately 10M lines every 13s (depending on CPU speed)
+* this mod just changes the field to be lane name instead of lane number for Dante's FQs
 
 ## Building
 ```
@@ -20,4 +21,4 @@ go build fastqsplit.go
 ```
 
 ## Binaries
-Download binaries for Linux or OSX from the releases page.
+Download binaries for Linux from the releases page.
