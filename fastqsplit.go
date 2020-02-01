@@ -51,7 +51,7 @@ func main() {
 			record[line % 4] = scanner.Text()
 			if line % 4 == 3 {
 				fields := strings.Split(record[0], ":")
-				lane := fields[3]
+				lane := fields[2]
 				_, ok := targets[lane]
 				if !ok {
 					filename_components := strings.Split(filename, "_")
